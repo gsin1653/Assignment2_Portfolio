@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "server": "nodemon server.js",
+    "nodemon": "npm run server",
     "start": "node ./server.js"
   },
   "engines": {
@@ -22,7 +24,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "demo app for COMP229 Week 3",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
